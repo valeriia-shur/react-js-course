@@ -112,6 +112,7 @@ This repo contains my own code for all sections and projects contained in the co
 
 ### 12-redux-training
 #### React Quiz App - part 5
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Demo app:` [React Quiz App](https://react-quiz-19705.web.app/)
 - Refactoring the code to work through redux
 - Keeping business logic out of UI
 - Firebase deploy
