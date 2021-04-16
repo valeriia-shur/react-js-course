@@ -1,7 +1,7 @@
-# react-js-course
-React JS Course From Zero to Advanced
 
-# Course Materials and Projects made within [React JS Course](https://www.udemy.com/share/102rpCAEcddF1WRH8F/)
+
+## Course Materials and Projects made within [React JS Course](https://www.udemy.com/share/102rpCAEcddF1WRH8F/)
+React JS Course From Zero to Advanced.
 
 This repo contains my own code for all sections and projects contained in the course.
 
