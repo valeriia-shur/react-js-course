@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Adding React scripts and Babel" />
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <!-- Add react library -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <!-- Add react DOM - allows to work with HTML -->
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- Add BABEL to transform the code -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- type of the script is added to let React know that the code needs to be compiled. -->
+    <!-- React supports JSX syntax allowing to describe html elements within scripts -->
+    <!-- Babel transforms all this into readable by browser code -->
+    <script type="text/babel">
+      ReactDOM.render(
+        <h1>Hello, world!!!</h1>,
+        document.getElementById("root")
+      );
+    </script>
+    <!--
+  Note: this page is a great way to try React but it's not suitable for production.
+  It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+
+  To set up a production-ready React build environment, follow these instructions:
+  * https://reactjs.org/docs/add-react-to-a-new-app.html
+  * https://reactjs.org/docs/add-react-to-an-existing-app.html
+
+  You can also use React without JSX, in which case you can remove Babel:
+  * https://reactjs.org/docs/react-without-jsx.html
+  * https://reactjs.org/docs/cdn-links.html
+-->
+  </body>
+</html>
