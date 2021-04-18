@@ -1,6 +1,8 @@
 import axios from "axios";
 import { AUTH_SUCCESS, AUTH_LOGOUT } from "./actionTypes";
 
+const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+
 export default function auth(email, password, isLogin) {
   return async (dispatch) => {
     const authData = {
@@ -9,12 +11,10 @@ export default function auth(email, password, isLogin) {
       returnSecureToken: true,
     };
 
-    let url =
-      "https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyCAHcPyZXd764TQZUP3mOOYtiXfYywHjsw";
+    let url = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=${GOOGLE_API_KEY}`;
 
     if (isLogin) {
-      url =
-        "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyCAHcPyZXd764TQZUP3mOOYtiXfYywHjsw";
+      url = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${GOOGLE_API_KEY}`;
     }
 
     const response = await axios.post(url, authData);
