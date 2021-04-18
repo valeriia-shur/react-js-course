@@ -118,22 +118,34 @@ This repo contains my own code for all sections and projects contained in the co
 - Firebase deploy
 
 ### 13-react-hooks
-- 
--
+- useState(): adding effects, states, and links
+- useMemo()
+- useCallback()
+- useContext()
+- Redux and useReducer()
+-  Creating a Hook
 
 ### 14-react-hooks-training
-#### React Quiz App - part 6
--
--
+#### React GitHub users search App
+- - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Demo app:` [React GitHub users search App](https://react-hooks-app-a8eb3.web.app/)
+- Setting navigation
+- Creating Main Page
+- Search Component
+- Github State
+- Receiving data from Github
+- Setting requiests
+- Rendering the main page with a search bar and profiles' pages
 
 ### 15-react-animation
--
--
+- CSS Animcation in React
+- Animation with Transition
+- Stages of Animations
+- CSSTransition
+- Group Transition
 
 ### 16-react-testing
--
--
+- How to test the code in React
 
 ### 17-higher-order-components
--
--
+- High-order function
+- App optimization
